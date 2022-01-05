@@ -15,7 +15,7 @@ parser.add_argument("--save_dir", type=str, default='./results/', help="save pat
 parser.add_argument("--ckpt", default='./log/MoCoPnet.pth.tar', type=str, help="checkpoint path")
 parser.add_argument("--scale_factor", type=int, default=4, help="scale factor")
 parser.add_argument("--input_num", type=int, default=7, help="input frame number")
-parser.add_argument("--test_dataset_dir", default='./data/', type=str, help="train_dataset")
+parser.add_argument("--test_dataset_dir", default='./data/test/', type=str, help="train_dataset")
 parser.add_argument("--batch_size", type=int, default=1, help="Test batch size")
 parser.add_argument("--device", type=int, default=0, help="GPU id")
 
