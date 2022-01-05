@@ -4,7 +4,7 @@ Pytorch implementation of local motion and contrast prior driven deep network (M
 ## Overview
 
 ### Architecture of MoCoPnet
-<img src="https://github.com/XinyiYing/D3Dnet/blob/master/images/1.PNG" width="550"/><br>
+<img src="https://github.com/XinyiYing/MoCoPnet/blob/main/images/1.PNG" width="550"/><br>
 
 ## Requirements
 - Python 3
@@ -58,18 +58,18 @@ data
 ### Quantitative Results of SR performance 
 Table 1. PSNR/SSIM achieved by different methods.
 
-<img src="https://github.com/XinyiYing/D3Dnet/blob/master/images/2.PNG" width="1100" />
+<img src="https://github.com/XinyiYing/MoCoPnet/blob/master/images/2.PNG" width="1100" />
 
 Table 2. SNR and CR results of different methods achieved on super-resolved LR images and super-resolved HR images.
 
-<img src="https://github.com/XinyiYing/D3Dnet/blob/master/images/3.PNG" width="550"/>
+<img src="https://github.com/XinyiYing/MoCoPnet/blob/master/images/3.PNG" width="550"/>
 
 ### Qualitative Results of SR performance 
-<img src=https://github.com/XinyiYing/D3Dnet/blob/master/images/4.PNG>
+<img src=https://github.com/XinyiYing/MoCoPnet/blob/master/images/4.PNG>
 
 Figure 1. Visual results of different SR methods on LR images for 4x SR.
 
-<img src=https://github.com/XinyiYing/D3Dnet/blob/master/images/5.PNG>
+<img src=https://github.com/XinyiYing/MoCoPnet/blob/master/images/5.PNG>
 
 Figure 2. Visual results of different SR methods on LR images for 4x SR.
 
@@ -77,11 +77,11 @@ Figure 2. Visual results of different SR methods on LR images for 4x SR.
 
 Table 3. Quantitative results of Tophat, ILCM, IPI achieved on super-resolved LR images.
 
-<img src="https://github.com/XinyiYing/D3Dnet/blob/master/images/6.PNG" width="1100" />
+<img src="https://github.com/XinyiYing/MoCoPnet/blob/master/images/6.PNG" width="1100" />
 
 Table 4. Quantitative results of Tophat, ILCM, IPI achieved on super-resolved HR images.
 
-<img src="https://github.com/XinyiYing/D3Dnet/blob/master/images/7.PNG" width="550"/>
+<img src="https://github.com/XinyiYing/MoCoPnet/blob/master/images/7.PNG" width="550"/>
 
 ### Qualitative Results of detection
 
@@ -89,15 +89,15 @@ Table 4. Quantitative results of Tophat, ILCM, IPI achieved on super-resolved HR
 
 Figure 3. Qualitative results of super-resolved LR image and detection results.
 
-<img src=https://github.com/XinyiYing/D3Dnet/blob/master/images/9.PNG>
+<img src=https://github.com/XinyiYing/MoCoPnet/blob/master/images/9.PNG>
 
 Figure 4. Qualitative results of super-resolved HR image and detection results.
 
-<img src=https://github.com/XinyiYing/D3Dnet/blob/master/images/10.PNG>
+<img src=https://github.com/XinyiYing/MoCoPnet/blob/master/images/10.PNG>
 
 Figure 5. ROC results of Tophat, ILCM and IPI achieved on super-resolved LR images.
 
-<img src=https://github.com/XinyiYing/D3Dnet/blob/master/images/11.PNG>
+<img src=https://github.com/XinyiYing/MoCoPnet/blob/master/images/11.PNG>
 
 Figure 6. ROC results of Tophat, ILCM and IPI achieved on super-resolved HR images.
 
