@@ -103,7 +103,7 @@ Figure 6. ROC results of Tophat, ILCM and IPI achieved on super-resolved HR imag
 
 ## Citiation
 ```
-@article{D3Dnet,
+@article{MoCoPnet,
   author = {Ying, Xinyi and Wang, Yingqian and Wang, Longguang and Sheng, Weidong and Liu, Li and Lin, Zaipin and Zhou, Shilin},
   title = {MoCoPnet: Exploring Local Motion and Contrast Priors for Infrared Small Target Super-Resolution},
   journal={arXiv preprint arXiv:2201.01014},
