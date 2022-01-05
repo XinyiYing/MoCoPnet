@@ -19,7 +19,7 @@ Pytorch implementation of local motion and contrast prior driven deep network (M
 
 2. Download [Hui](https://www.scidb.cn/en/detail?dataSetId=720626420933459968&dataSetType=journal) and [Anti-UAV](https://anti-uav.github.io/dataset/). Note that, Hui and Anti-UAV is used as the test dataset to test the robustness of our MoCoPnet to real scenes. In Anti-UAV dataset, only the sequences with infrared small target (i.e., The target size is less than 0.12% of the image size) are selected as the test set (21 sequences in total). Note that, we only use the first 100 images of each sequence for test to balance computational/time cost and generalization performance.
 
-For simplicity, you can also Download the Hui and Anti-UAV datasets in https://pan.baidu.com/s/1PKZeTo8HVklHU5Pe26qUtw (Code: 4l5r) and put the folder in code/data.
+  For simplicity, you can also Download the test datasets in https://pan.baidu.com/s/1PKZeTo8HVklHU5Pe26qUtw (Code: 4l5r) and put the folder in code/data.
 
 3. Data format: 
 
