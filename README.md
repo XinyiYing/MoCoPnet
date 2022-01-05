@@ -2,8 +2,6 @@
 Pytorch implementation of local motion and contrast prior driven deep network (MoCoPnet). [<a href="https://arxiv.org/abs/2201.01014">PDF</a>] <br><br>
 
 ## Overview
-
-### Architecture of MoCoPnet
 <img src="https://github.com/XinyiYing/MoCoPnet/blob/main/images/1.PNG" width="550"/><br>
 
 ## Requirements
@@ -15,15 +13,18 @@ Pytorch implementation of local motion and contrast prior driven deep network (M
 
 ### Training & test datasets
 
-1. Download [SAITD](https://www.scidb.cn/en/detail?dataSetId=808025946870251520&dataSetType=journal) dataset (a large-scale high-quality semi-synthetic dataset). Note that, we employ the 1st-50th sequences with target annotations as the test datasets and the remaining 300 sequences as the training datasets. 
+#### Download [SAITD](https://www.scidb.cn/en/detail?dataSetId=808025946870251520&dataSetType=journal) dataset. 
+SAITD dataset is a large-scale high-quality semi-synthetic dataset of infrared small target.
+We employ the 1st-50th sequences with target annotations as the test datasets and the remaining 300 sequences as the training datasets. 
 
-2. Download [Hui](https://www.scidb.cn/en/detail?dataSetId=720626420933459968&dataSetType=journal) and [Anti-UAV](https://anti-uav.github.io/dataset/). Note that, Hui and Anti-UAV is used as the test dataset to test the robustness of our MoCoPnet to real scenes. In Anti-UAV dataset, only the sequences with infrared small target (i.e., The target size is less than 0.12% of the image size) are selected as the test set (21 sequences in total). Note that, we only use the first 100 images of each sequence for test to balance computational/time cost and generalization performance.
+#### Download [Hui](https://www.scidb.cn/en/detail?dataSetId=720626420933459968&dataSetType=journal) and [Anti-UAV](https://anti-uav.github.io/dataset/). 
+Hui and Anti-UAV datasets are used as the test datasets to test the robustness of our MoCoPnet to real scenes. In Anti-UAV dataset, only the sequences with infrared small target (i.e., The target size is less than 0.12% of the image size) are selected as the test set (21 sequences in total). Note that, we only use the first 100 images of each sequence for test to balance computational/time cost and generalization performance.
 
-      For simplicity, you can also Download the test datasets in https://pan.baidu.com/s/1_nGibEah7OAwomCQ_MuIRg?pwd=1113 and put the folder in code/data.
+For simplicity, you can also Download the test datasets in https://pan.baidu.com/s/1oobhklwIChvNJIBpTcdQRQ?pwd=1113 and put the folder in code/data.
 
-3. Data format: 
+#### Data format: 
 
-1) The training dataset is in `code/data/train/SAITD`. 
+1. The training dataset is in `code/data/train/SAITD`. 
 ```
 train
   └── SAITD
@@ -37,7 +38,7 @@ train
               ├── ...		
        ...
 ```
-2) The test datasets are in `code/data/test` as below:
+2. The test datasets are in `code/data/test` as below:
 ```
  test
   └── dataset_1
@@ -83,23 +84,25 @@ Table 4. Quantitative results of Tophat, ILCM, IPI achieved on super-resolved HR
 
 <img src="https://github.com/XinyiYing/MoCoPnet/blob/master/images/7.PNG" width="550"/>
 
+
+<img src=https://github.com/XinyiYing/MoCoPnet/blob/master/images/10.PNG>
+
+Figure 3. ROC results of Tophat, ILCM and IPI achieved on super-resolved LR images.
+
+<img src=https://github.com/XinyiYing/MoCoPnet/blob/master/images/11.PNG>
+
+Figure 4. ROC results of Tophat, ILCM and IPI achieved on super-resolved HR images.
+
 ### Qualitative Results of detection
 
 <img src=https://github.com/XinyiYing/D3Dnet/blob/master/images/8.PNG>
 
-Figure 3. Qualitative results of super-resolved LR image and detection results.
+Figure 5. Qualitative results of super-resolved LR image and detection results.
 
 <img src=https://github.com/XinyiYing/MoCoPnet/blob/master/images/9.PNG>
 
-Figure 4. Qualitative results of super-resolved HR image and detection results.
+Figure 6. Qualitative results of super-resolved HR image and detection results.
 
-<img src=https://github.com/XinyiYing/MoCoPnet/blob/master/images/10.PNG>
-
-Figure 5. ROC results of Tophat, ILCM and IPI achieved on super-resolved LR images.
-
-<img src=https://github.com/XinyiYing/MoCoPnet/blob/master/images/11.PNG>
-
-Figure 6. ROC results of Tophat, ILCM and IPI achieved on super-resolved HR images.
 
 ## Citiation
 ```
