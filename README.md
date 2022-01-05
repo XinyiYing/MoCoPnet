@@ -23,9 +23,9 @@ For simplicity, you can also Download the Hui and Anti-UAV datasets in https://p
 
 3. Data format: 
 
-1) The training dataset is in `code/data/SAITD`. 
+1) The training dataset is in `code/data/train/SAITD`. 
 ```
-data
+train
   └── SAITD
        └── 1
               ├── 0.png
@@ -37,9 +37,9 @@ data
               ├── ...		
        ...
 ```
-2) The test datasets are in `code/data` as below:
+2) The test datasets are in `code/data/test` as below:
 ```
- data
+ test
   └── dataset_1
          └── scene_1
               ├── 0.png  
