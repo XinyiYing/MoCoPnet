@@ -8,7 +8,7 @@ from evaluation import psnr2, ssim
 import numpy as np
 from tqdm import tqdm
 
-parser = argparse.ArgumentParser(description="PyTorch D3Dnet")
+parser = argparse.ArgumentParser(description="PyTorch MoCoPnet")
 parser.add_argument("--datasets", type=str, default=['SAITD','Hui','Anti-UAV'], help="Test datasets")
 parser.add_argument("--save_img", type=bool, default=False, help="save super-resolved images")
 parser.add_argument("--save_dir", type=str, default='./results/', help="save path")
