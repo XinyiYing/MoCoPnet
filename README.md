@@ -1,4 +1,4 @@
-# Deformable 3D Convolution for Video Super-Resolution
+# MoCoPnet: Exploring Local Motion and Contrast Priors for Infrared Small Target Super-Resolution
 Pytorch implementation of local motion and contrast prior driven deep network (MoCoPnet). [<a href="https://arxiv.org/abs/2201.01014">PDF</a>] <br><br>
 
 ## Overview
@@ -107,7 +107,7 @@ Figure 6. Qualitative results of super-resolved HR image and detection results.
 ## Citiation
 ```
 @article{MoCoPnet,
-  author = {Ying, Xinyi and Wang, Yingqian and Wang, Longguang and Sheng, Weidong and Liu, Li and Lin, Zaipin and Zhou, Shilin},
+  author = {Ying, Xinyi and Wang, Yingqian and Wang, Longguang and Sheng, Weidong and Liu, Li and Lin, Zaiping and Zhou, Shilin},
   title = {MoCoPnet: Exploring Local Motion and Contrast Priors for Infrared Small Target Super-Resolution},
   journal={arXiv preprint arXiv:2201.01014},
   year = {2020},
