@@ -11,7 +11,7 @@ from evaluation import psnr2, ssim
 import numpy as np
 from tqdm import tqdm
 
-parser = argparse.ArgumentParser(description="PyTorch D3Dnet")
+parser = argparse.ArgumentParser(description="PyTorch MoCoPnet")
 parser.add_argument("--save", default='./log', type=str, help="Save path")
 parser.add_argument("--resume", default="", type=str, help="Resume path (default: none)")
 parser.add_argument("--scale_factor", type=int, default=4, help="scale")
@@ -20,11 +20,11 @@ parser.add_argument("--train_dataset_dir", default='./data/train/SAITD', type=st
 parser.add_argument("--val_dataset_dir", default='./data/test/SAITD', type=str, help="train_dataset")
 parser.add_argument("--batch_size", type=int, default=2, help="Training batch size")
 parser.add_argument('--patch_size', type=int, default=64)
-parser.add_argument('--n_iters', type=int, default=600000, help='number of iterations to train')
+parser.add_argument('--n_iters', type=int, default=100000, help='number of iterations to train')
 parser.add_argument("--device", default=0, type=int, help="GPU id (default: 0)")
-parser.add_argument("--lr", type=float, default=2e-4, help="Learning Rate. Default=4e-4")
+parser.add_argument("--lr", type=float, default=1e-3, help="Learning Rate. Default=4e-4")
 parser.add_argument('--gamma', type=float, default=0.5, help='gamma')
-parser.add_argument("--milestones", type=int, default=[200000,400000,600000], help="Sets the learning rate to the initial LR decayed by momentum every n epochs, Default: n=6")
+parser.add_argument("--milestones", type=int, default=[10000,20000,60000], help="Sets the learning rate to the initial LR decayed by momentum every n epochs, Default: n=6")
 parser.add_argument("--threads", type=int, default=4, help="Number of threads for data loader to use, Default: 1")
 
 global opt
