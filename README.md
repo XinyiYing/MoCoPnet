@@ -108,9 +108,9 @@ Figure 6. Qualitative results of super-resolved HR image and detection results.
 ```
 @article{MoCoPnet,
   author = {Ying, Xinyi and Wang, Yingqian and Wang, Longguang and Sheng, Weidong and Liu, Li and Lin, Zaiping and Zhou, Shilin},
-  title = {MoCoPnet: Exploring Local Motion and Contrast Priors for Infrared Small Target Super-Resolution},
-  journal={arXiv preprint arXiv:2201.01014},
-  year = {2020},
+  title = {Local Motion and Contrast Priors Driven Deep Network for Infrared Small Target Super-Resolution},
+  journal={Journal of Selected Topics in Applied Earth Observations and Remote Sensing},
+  year = {2022},
 }
 ```
 
