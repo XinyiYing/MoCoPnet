@@ -1,5 +1,5 @@
 # Local Motion and Contrast Priors Driven Deep Network for Infrared Small Target Super-Resolution
-Pytorch implementation of local motion and contrast prior driven deep network (MoCoPnet). [<a href="https://arxiv.org/abs/2201.01014">PDF</a>] <br><br>
+Pytorch implementation of local motion and contrast prior driven deep network (MoCoPnet). [<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9796529">PDF</a>] <br><br>
 
 ## Overview
 <img src="https://github.com/XinyiYing/MoCoPnet/blob/main/images/1.PNG" width="550"/><br>
