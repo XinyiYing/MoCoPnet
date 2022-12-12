@@ -59,11 +59,11 @@ train
 ### Quantitative Results of SR performance 
 Table 1. PSNR/SSIM achieved by different methods.
 
-<img src="https://raw.github.com/XinyiYing/MoCoPnet/master/images/2.PNG" width="1100" />
+<img src="https://raw.github.com/XinyiYing/MoCoPnet/master/images/2.PNG" width="1024" />
 
 Table 2. SNR and CR results of different methods achieved on super-resolved LR images and super-resolved HR images.
 
-<img src="https://raw.github.com/XinyiYing/MoCoPnet/master/images/3.PNG" width="550"/>
+<img src="https://raw.github.com/XinyiYing/MoCoPnet/master/images/3.PNG" width="1024"/>
 
 ### Qualitative Results of SR performance 
 <img src=https://raw.github.com/XinyiYing/MoCoPnet/master/images/4.PNG>
@@ -78,11 +78,11 @@ Figure 2. Visual results of different SR methods on LR images for 4x SR.
 
 Table 3. Quantitative results of Tophat, ILCM, IPI achieved on super-resolved LR images.
 
-<img src="https://raw.github.com/XinyiYing/MoCoPnet/master/images/6.PNG" width="1100" />
+<img src="https://raw.github.com/XinyiYing/MoCoPnet/master/images/6.PNG" width="1024" />
 
 Table 4. Quantitative results of Tophat, ILCM, IPI achieved on super-resolved HR images.
 
-<img src="https://raw.github.com/XinyiYing/MoCoPnet/master/images/7.PNG" width="550"/>
+<img src="https://raw.github.com/XinyiYing/MoCoPnet/master/images/7.PNG" width="1024"/>
 
 
 <img src=https://raw.github.com/XinyiYing/MoCoPnet/master/images/10.PNG>
