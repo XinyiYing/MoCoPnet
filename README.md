@@ -87,7 +87,7 @@ train
 ```
 @article{MoCoPnet,
   author = {Ying, Xinyi and Wang, Yingqian and Wang, Longguang and Sheng, Weidong and Liu, Li and Lin, Zaiping and Zhou, Shilin},
-  title = {Local Motion and Contrast Priors Driven Deep Network for Infrared Small Target Super-Resolution},
+  title = {Local Motion and Contrast Priors Driven Deep Network for Infrared Small Target Superresolution},
   journal={Journal of Selected Topics in Applied Earth Observations and Remote Sensing},
   year = {2022},
 }
